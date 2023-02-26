@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "How to find places along a GPX route in Python using Overpass API and Google Maps Places API",
     "section": "",
-    "text": "Do you have some long GPX routes, for long hikes, pub crawls or pilgrimages? How can you automatically find what amenities are near the route, and reduce the amount you spend using paid APIs?\nIn this tutorial, we find places in OpenStreetMap along our route, using the free Overpass API. Then, we use the Google Maps Places API for each place of interest to retrieve up-to-date place ratings, reviews, photos and opening hours.\nDoing it this way has a couple of advantages:\nWhat we need to do is:\nLet’s get started! You will need to pip install the following packages: - numpy pandas tqdm for data analysis - gpxpy for reading GPX routes - overpy for calling the Overpass API - googlemaps for calling the Google Maps API - folium for plotting HTML maps - scikit-learn haversine for cleaning routes"
+    "text": "Do you have some long GPX routes, for long hikes, pub crawls or pilgrimages? How can you automatically find what amenities are near the route, and reduce the amount you spend using paid APIs?\nIn this tutorial, we find places in OpenStreetMap along our route, using the free Overpass API. Then, we use the Google Maps Places API for each place of interest to retrieve up-to-date place ratings, reviews, photos and opening hours.\nDoing it this way has a couple of advantages:\nWhat we need to do is:\nFor the full notebook, see the repo.\nLet’s get started! You will need to pip install the following packages:"
   },
   {
     "objectID": "blog.html#import-gpx-route",
