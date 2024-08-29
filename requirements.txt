@@ -1,0 +1,9 @@
+numpy
+pandas
+tqdm
+gpxpy
+overpy
+googlemaps
+folium
+scikit-learn
+haversine
